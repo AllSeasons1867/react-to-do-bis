@@ -42,7 +42,7 @@ function App() {
     return (
       notes.map((element,index) => {
         return (
-          <Note key={index} id={index} note={element} deleteNote={deleteNote} updateNote={updateNote} />
+          <Note key={index} id={index} note={element} deleteNote={deleteNote} updateNote={updateNote} editState={editState} />
         )
       })
     )
